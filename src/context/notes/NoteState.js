@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import NoteContext from "./noteContext";
 
 const NoteState = (props) => {
-    const host = "https://i-notebook-backend-deploy.vercel.app";
+    const host = "https://inotebookbackendapi.onrender.com";
     const notesInitial = [];
 
     //eslint-disable-next-line
